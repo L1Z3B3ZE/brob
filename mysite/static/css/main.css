@@ -1,0 +1,56 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0 0 0 ;
+    gap: 30px;
+}
+
+.product{
+    margin-top: 30px;
+    width: 600px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.product_text{
+    white-space:pre-wrap;
+    overflow-wrap: break-word;
+}
+
+.register_form{
+    margin: 30px;
+}
+
+.logout{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    gap: 15px;
+}
+
+.login{
+    margin: 25px 0 0 30px;
+}
+
+.profile{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.basket{
+    width: 600px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 15px;
+}
